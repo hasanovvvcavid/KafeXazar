@@ -239,7 +239,7 @@ const Menu = () => {
         </a>
 
         <img
-          src="./public/MenuImages/shape-5.png"
+          src="./MenuImages/shape-5.png"
           width="921"
           height="1036"
           loading="lazy"
@@ -247,7 +247,7 @@ const Menu = () => {
           className="shape shape-2 move-anim"
         />
         <img
-          src="./public/MenuImages/shape-6.png"
+          src="./MenuImages/shape-6.png"
           width="343"
           height="345"
           loading="lazy"
