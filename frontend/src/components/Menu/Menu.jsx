@@ -68,7 +68,7 @@ const Menu = () => {
 
   useEffect(() => {
     // Backend API'den yemekleri çekiyoruz
-    fetch("http://localhost:3000/api/foods") // ✅ Backend'in API endpoint'ini buraya yaz
+    fetch("https://kafexazar-9.onrender.com/api/foods") // ✅ Backend'in API endpoint'ini buraya yaz
       .then((response) => response.json())
       .then((data) => setFoods(data)) // Gelen veriyi state'e kaydediyoruz
       .catch((error) => console.error("Hata oluştu:", error));
