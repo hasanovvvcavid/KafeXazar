@@ -77,7 +77,7 @@ const Menu = () => {
   return (
     <section className="section menu" aria-label="menu-label" id="menu">
       <div className="container">
-        <p className="section-subtitle text-center label-2">
+        <p className="section-subtitle text-center label-2" style={{ marginTop: "50px" }}>
           Special Selection
         </p>
         <h2 className="headline-1 section-title text-center">
