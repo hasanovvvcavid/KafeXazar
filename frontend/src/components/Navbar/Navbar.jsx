@@ -4,45 +4,45 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <div id="navbar-bg">
-      <div class="topbar navbar-slig">
-        <div class="container">
-          <address class="topbar-item">
-            <div class="icon">
+      <div className="topbar navbar-slig">
+        <div className="container">
+          <address className="topbar-item">
+            <div className="icon">
               <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
             </div>
 
-            <span class="span">
+            <span className="span">
             Kafe Xazar , Mingəçevir
               
             </span>
           </address>
 
-          <div class="separator"></div>
+          <div className="separator"></div>
 
-          <div class="topbar-item item-2">
-            <div class="icon">
+          <div className="topbar-item item-2">
+            <div className="icon">
               <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
             </div>
 
-            <span class="span">Gündəlik : 9.00 am to 12.00 pm</span>
+            <span className="span">Gündəlik : 9.00 am to 12.00 pm</span>
           </div>
 
-          <a href="tel:+11234567890" class="topbar-item link">
-            <div class="icon">
+          <a href="tel:+11234567890" className="topbar-item link">
+            <div className="icon">
               <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
             </div>
 
-            <span class="span">+00 000 00 00</span>
+            <span className="span">+00 000 00 00</span>
           </a>
 
-          <div class="separator"></div>
+          <div className="separator"></div>
 
-          <a href="mailto:booking@restaurant.com" class="topbar-item link">
-            <div class="icon">
+          <a href="mailto:booking@restaurant.com" className="topbar-item link">
+            <div className="icon">
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
             </div>
 
-            <span class="span">Xazar@gmail.com</span>
+            <span className="span">Xazar@gmail.com</span>
           </a>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 width="160"
                 height="60"
                 viewBox="0 -9 370 214.52357181165266"
-                class="looka-1j8o68f"
+                className="looka-1j8o68f"
               >
                 <defs id="SvgjsDefs1820"></defs>
                 <g
