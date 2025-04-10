@@ -234,12 +234,7 @@ const Menu = () => {
         </div>
 
         {/* Diğer UI elemanları */}
-        <a href="#" className="btn btn-primary">
-          <span className="text text-1">View All Menu</span>
-          <span className="text text-2" aria-hidden="true">
-            View All Menu
-          </span>
-        </a>
+        
 
         <img
           src="./MenuImages/shape-5.png"

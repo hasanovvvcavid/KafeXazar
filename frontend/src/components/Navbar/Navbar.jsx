@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css"
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
@@ -50,6 +51,7 @@ const Navbar = () => {
         <div className="container">
           <a href="#" className="logo">
             
+            <Link to="/" >
             <div className="div-img" style={{ width: "160px", height: "60px" }}>
               <svg
                 width="160"
@@ -88,6 +90,8 @@ const Navbar = () => {
                 </g>
               </svg>
             </div>
+            </Link>
+           
           </a>
 
           <nav className="navbar" data-navbar>
@@ -171,12 +175,12 @@ const Navbar = () => {
             </div>
           </nav>
 
-          <a href="#" className="btn btn-secondary">
-            <span className="text text-1">Find A Table</span>
+          <Link to="/kafe-location" className="btn btn-secondary">
+            <span className="text text-1">Xeritede goster</span>
             <span className="text text-2" aria-hidden="true">
-              Find A Table
+              Xeritede goster
             </span>
-          </a>
+          </Link>
 
           <button
             className="nav-open-btn"
